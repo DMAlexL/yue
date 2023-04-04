@@ -32,7 +32,7 @@ const router = createRouter({
         {
           path: 'd2',
           meta: {
-            title: '欢迎2',
+            title: '欢迎',
             color: '#93b5cf',
           },
           component: () => import('@/components/WelcomeItem.vue'),
