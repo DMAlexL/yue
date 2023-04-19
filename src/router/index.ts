@@ -32,10 +32,10 @@ const router = createRouter({
         {
           path: 'd2',
           meta: {
-            title: '欢迎',
+            title: 'v-for 中使用 Map',
             color: '#93b5cf',
           },
-          component: () => import('@/components/WelcomeItem.vue'),
+          component: () => import('@/views/demo/d2/D2View.vue'),
         },
       ],
     },

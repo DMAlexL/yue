@@ -1,6 +1,7 @@
 export interface BaseLink {
   name?: string;
   address?: string;
+  target?: string;
 }
 
 export interface CardViewModel {

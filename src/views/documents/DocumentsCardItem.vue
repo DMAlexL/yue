@@ -14,7 +14,7 @@
       <div class="material">
         <div v-for="wiki of wikis" :key="wiki.address">
           {{ `${1}. ` }}
-          <a :href="wiki.address" target="_blank" rel="noreferrer">
+          <a :href="wiki.address" :target="wiki.target" rel="noreferrer">
             {{ wiki.name }}
           </a>
         </div>

@@ -17,10 +17,12 @@ router.get('/list', function (req, res) {
         {
           name: 'Vite 官方中文文档',
           address: 'https://cn.vitejs.dev',
+          target: '_blank',
         },
         {
           name: 'Vite 官方中文文档',
           address: 'https://cn.vitejs.dev/',
+          target: '_blank',
         },
       ],
     },
@@ -38,6 +40,25 @@ router.get('/list', function (req, res) {
         {
           name: 'Lodash 官方中文文档',
           address: 'https://www.lodashjs.com/',
+          target: '_blank',
+        },
+      ],
+    },
+    {
+      key: '3',
+      title: '语雀',
+      logo: 'https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original',
+      github: 'https://github.com/yuque',
+      intro: '优雅高效的在线文档编辑与协同工具。',
+      style: {
+        backgroundImage:
+          'linear-gradient(65deg, #008583, #01a59c, #01c7b6, #00e9d1)',
+      },
+      wikis: [
+        {
+          name: '语雀',
+          address: 'yuque://',
+          target: '',
         },
       ],
     },
