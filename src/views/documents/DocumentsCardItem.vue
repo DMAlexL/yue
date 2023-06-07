@@ -26,8 +26,9 @@
 
 <script setup lang="ts">
 import IconFontGithub from '@/components/icons/IconFontGithub.vue';
+import type {CardViewModel} from './interface.d'
 
-defineProps(['style', 'logo', 'github', 'title', 'intro', 'wikis']);
+defineProps<CardViewModel>();
 </script>
 
 <style lang="less" scoped>

@@ -11,5 +11,5 @@ export interface CardViewModel {
   github: string;
   intro: string;
   style: { [key: string]: string };
-  wikis?: BaseLink[];
+  wikis: BaseLink[];
 }

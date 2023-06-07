@@ -37,6 +37,14 @@ const router = createRouter({
           },
           component: () => import('@/views/demo/d2/D2View.vue'),
         },
+        {
+          path: 'd3',
+          meta: {
+            title: '有意思的粘性气泡 Loading',
+            color: '#c45a65',
+          },
+          component: () => import('@/views/demo/loading/BubblesLoading.vue'),
+        },
       ],
     },
     {

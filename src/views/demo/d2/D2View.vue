@@ -15,6 +15,7 @@ const DeviceType_Map = new Map([
   [DeviceType_Home, '看家'],
   [undefined, ''],
 ]);
+
 </script>
 
 <style lang="less" scoped></style>
