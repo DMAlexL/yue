@@ -26,7 +26,7 @@
 
 <script setup lang="ts">
 import IconFontGithub from '@/components/icons/IconFontGithub.vue';
-import type {CardViewModel} from './interface.d'
+import type { CardViewModel } from './interface.d';
 
 defineProps<CardViewModel>();
 </script>

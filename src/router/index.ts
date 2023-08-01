@@ -45,6 +45,14 @@ const router = createRouter({
           },
           component: () => import('@/views/demo/loading/BubblesLoading.vue'),
         },
+        {
+          path: 'd4',
+          meta: {
+            title: '密码校验规则',
+            color: '#2983bb',
+          },
+          component: () => import('@/views/demo/password-reg/PasswordReg.vue'),
+        },
       ],
     },
     {

@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
-import LogoImg from '@/assets/logo.svg';
 </script>
 
 <template>
   <div class="layout">
     <div class="header">
       <div class="header-logo">
-        <img :src="LogoImg" alt="logo" />
+        <img src="./assets/logo.svg" alt="logo" />
       </div>
       <div class="header-navigation">
         <RouterLink to="/">Home</RouterLink>

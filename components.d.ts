@@ -7,10 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Breadcrumb: typeof import('./src/components/breadcrumb/Breadcrumb.vue')['default']
     BreadcrumbRouter: typeof import('./src/components/BreadcrumbRouter.vue')['default']
-    BreadcrumbRouterRender: typeof import('./src/components/breadcrumb/BreadcrumbRouterRender.vue')['default']
-    copy: typeof import('./src/components/icons/IconFont copy.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
@@ -18,8 +15,6 @@ declare module 'vue' {
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconFont: typeof import('./src/components/icons/IconFont.vue')['default']
     IconFontGithub: typeof import('./src/components/icons/IconFontGithub.vue')['default']
-    IconFontGitHub: typeof import('./src/components/icons/IconFontGitHub.vue')['default']
-    IconGitHub: typeof import('./src/components/icons/IconGitHub.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

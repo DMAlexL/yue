@@ -2,11 +2,7 @@
   <div class="demo">
     <BreadcrumbRouter v-show="!hiddenBreadcrumbRouter" />
     <div v-show="hiddenBreadcrumbRouter" class="cards-group">
-      <DemoIndexCard
-        v-for="item of currentRouters"
-        v-bind="item"
-        :key="item.key"
-      />
+      <DemoIndexCard v-for="item of currentRouters" v-bind="item" :key="item.key" />
     </div>
   </div>
   <RouterView />
