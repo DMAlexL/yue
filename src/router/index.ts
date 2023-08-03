@@ -26,8 +26,7 @@ const router = createRouter({
             title: '动画特效',
             color: '#12aa9c',
           },
-          component: () =>
-            import('@/views/demo/animation-test/AnimationTestView.vue'),
+          component: () => import('@/views/demo/animation-test/AnimationTestView.vue'),
         },
         {
           path: 'd2',
@@ -59,6 +58,23 @@ const router = createRouter({
       path: '/documents',
       name: 'documents',
       component: () => import('@/views/documents/DocumentsView.vue'),
+    },
+    {
+      path: '/topic',
+      name: 'topic',
+      component: () => import('@/views/topic/TopicView.vue'),
+      meta: {
+        title: 'Topic',
+      },
+      children: [
+        {
+          path: 'css',
+          meta: {
+            title: 'CSS知识点',
+          },
+          component: () => import('@/views/topic/CssView.vue'),
+        },
+      ],
     },
   ],
 });
